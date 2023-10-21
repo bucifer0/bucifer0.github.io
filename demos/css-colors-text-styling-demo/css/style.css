@@ -1,0 +1,11 @@
+#first-paragraph {
+    color: blue;
+    background-color: goldenrod;
+    font-style:italic;
+    text-align:right;
+}
+
+#second-paragraph {
+    color: #ff0000;
+    font-weight:bold ;
+}
