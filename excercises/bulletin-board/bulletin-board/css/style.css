@@ -1,0 +1,73 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Bulletin Board assignment.
+
+    Good luck, and have fun!
+*/
+.post-it {
+    background-color: #942874;
+    display: inline-block;
+    width: 25%;
+    height: 200px;
+    margin: 24px;
+    padding: 24px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+img {
+    width:100%
+
+}
+.green {
+    background-color: #345834;
+    text-align: center;
+    margin: 24px;
+    padding: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 25%;
+    height: 200px;
+}
+
+.red {
+    background-color: #650127;
+    text-align: center;
+    margin: 24px;
+    padding: 24px;
+    font-family:fantasy;
+    width: 25%;
+    height: 200px;
+}
+
+.yellow {
+    background-color: #ffef00;
+    text-align: center;
+    margin: 24px;
+    padding: 24px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 25%;
+    height: 200px;
+}
+
+.blue {
+    background-color: #679890;
+    text-align: center;
+    margin: 24px;
+    padding: 24px;
+    font-family:fantasy;
+    width: 25%;
+    height: 200px;
+}
+
+.orange {
+    background-color: #ffa500;
+    text-align: center;
+    margin: 24px;
+    padding: 24px;
+    font-family:Arial, Helvetica, sans-serif;
+    width: 25%;
+    height: 200px;
+    text-decoration: line-through;
+}
