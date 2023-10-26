@@ -1,0 +1,116 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Upside-down Tetris assignment.
+
+    Good luck, and have fun!
+*/
+.tetris-block {
+    border-width: 11px;
+    border-style:outset;
+    display: inline-block;
+    padding: 15px;
+}
+.yellow {
+    background-color: #0000ff;
+    border-color: #0000ff ;
+}
+.green {
+    background-color: #241367;
+    border-color: #241367;
+}
+.red {
+    background-color: #ba2be2;
+    border-color: #ba2be2;
+}
+.blue {
+    background-color: #ffbf34 ;
+    border-color: #ffbf34;
+}
+.orange {
+    background-color: #4f7942 ;
+    border-color: #4f7942;
+}
+.teal {
+    background-color: #008080 ;
+    border-color: #008080;
+}
+.purple {
+    background-color: #800080 ;
+    border-color: #800080;
+}
+.orangered {
+    background-color: #aa4203;
+    border-color: #aa4203;
+}
+.pink {
+    background-color: #ffc0cb;
+    border-color: #ffc0cb;
+}
+.wide {
+    width: 105px;
+}
+.magenta {
+    background-color: #7fff00;
+    border-color: #7fff00;
+}
+.brown {
+    background-color: #fb33db;
+    border-color: #fb33db;
+}
+.burgundy {
+    background-color: #7fff00;
+    border-color: #7fff00;
+}
+.black {
+    background-color: transparent;
+    border-color: transparent;
+}
+.white {
+    background-color:transparent;
+    border-color: transparent;
+}
+.melon {
+    background-color: #0310ea;
+    border-color: #0310ea;
+}
+.clear {
+    background-color: #00f7ff;
+    border-color: #00f7ff;
+}
+.yellowgreen {
+    background-color: #ec1009;
+    border-color: #ec1009;
+}
+.wide1 {
+    width: 50px;
+}
+.violet {
+    background-color: #feae51;
+    border-color: #feae51;
+}
+.amazon {
+    background-color: #0000ff;
+    border-color: #0000ff;
+}
+.amber {
+    background-color: #ba2be2;
+    border-color: #ba2be2;
+}
+.almond {
+    background-color: #ec1009;
+    border-color: #ec1009;
+}
+.sky {
+    background-color: #ffd700;
+    border-color: #ffd700;
+}
+.aero {
+    background-color: transparent;
+    border-color: transparent;
+}
+.acid {
+    background-color: #241367;
+    border-color: #241367;
+}
