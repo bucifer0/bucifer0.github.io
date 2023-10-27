@@ -19,14 +19,16 @@
     text-align: center;
 }
 /* Drill 6 - Write your code solution below */
-#d6-div {
-    margin-right: 24px;
+.d6-div {
+    margin-right: 48px;
+}
+#d6-container {
+    text-align: center;
 }
 /* Drill 7 - Write your code solution below */
 #d7-container {
     text-align: center;
 }
 .d7-div {
-    margin-right: 12px 24px;
-    align-items: center;
+    margin: 12px 24px;
 }
