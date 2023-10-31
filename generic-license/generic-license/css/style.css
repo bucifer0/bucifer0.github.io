@@ -24,14 +24,12 @@ h4 {
     background-color: blue;
     color: white;
     padding: 12px;
-    width: 494px;
     text-align: center;
     font-weight: bold;
     font-size: 24px;
-    margin: 24px;
+    margin: 4px;
 }
 
-#left-side,
 #right-side {
     display: inline-block;
 }
@@ -54,6 +52,7 @@ h4 {
 
 #signature {
     text-align: center;
+    padding: 4px;
 }
 
 #donor, #real-id {
@@ -68,15 +67,17 @@ span, #donor {
 }
 
 #right-side img {
-    width: 100px;
-    vertical-align: 100px;
+    width: 210px;
+    vertical-align: 45px;
     display: inline-block;
-    height: 150px;
+    margin-left: 24px;
+   
 }
 
 #address  {
     font-weight: bold ;
-    padding: 8px;
+    padding: 4px;
+    margin-left: 36px ;
 }
  
 #data-left div {
@@ -88,9 +89,11 @@ span, #donor {
 }
 
 #left-side img {
-    width: 150px;
-    padding: 24px;
+    width: 100px;
+    padding-left: 4px;
     opacity: 43%;
+    vertical-align:50px ;
+    padding-right:4px ;
 }
 
 #data-left {
@@ -104,8 +107,17 @@ span, #donor {
 
 h1 {
     color: blue;
-    font-size: 40px;
-    margin: 24px;
+    font-size: 50px;
+    margin: 0px;
 }
 
- 
+ #left-side {
+    display: inline-block;
+ }
+
+ #donor {
+   padding-left: 100px;
+   vertical-align: ;
+ }
+
+ #
