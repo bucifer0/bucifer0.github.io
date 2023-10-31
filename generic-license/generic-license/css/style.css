@@ -8,45 +8,104 @@
 */
 #license {
     border: 3px solid black;
-    width: 500px;
-}
-div {
-   background-color: orangered;
-}
+    border-radius: 16px;
+    width: 700px;
+    background: linear-gradient(to bottom
+    right, rgb(253, 204, 114),
+    rgb(237, 140, 79)) };
+
 h1 {
-    margin-top: 12px;
+    margin: 8px;
     padding: 12px;
     color: blue;
 }
+
 h4 {
     background-color: blue;
     color: white;
     padding: 12px;
     width: 494px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 24px;
 }
-#left-side {
-    display: inline-block;
-    width: 60%;
-}
+
+#left-side,
 #right-side {
     display: inline-block;
 }
+
 #id-and-expiration div {
     display: inline-block;
     text-align: right ;
+    color: blue;
+    padding-bottom: 12px;
+    margin-left: 42px;
 }
-#Expires {
+
+#small-pic, #data-fields {
     display: inline-block;
 }
-#data-left {
+
+#data-left, #data-right {
+    display: inline-block;
+} 
+
+#signature {
+    text-align: center;
+}
+
+#donor, #real-id {
     display: inline-block;
 }
-#data-right {
-    display: inline-block;
-}
-#address {
+
+span, #donor {
+    color: red;
     font-weight: bold;
+    text-align: center;
+    margin:;
 }
-#img left-side {
-    width:4px;
+
+#right-side img {
+    width: 100px;
+    vertical-align: 100px;
+    display: inline-block;
+    height: 150px;
 }
+
+#address  {
+    font-weight: bold ;
+    padding: 8px;
+}
+ 
+#data-left div {
+    color:blue
+}
+
+#data-right div {
+    color: blue;
+}
+
+#left-side img {
+    width: 150px;
+    padding: 24px;
+    opacity: 43%;
+}
+
+#data-left {
+    vertical-align: 55px;
+}
+
+#data-right {
+    vertical-align: 55px;
+    padding-left: 16px;
+}
+
+h1 {
+    color: blue;
+    font-size: 40px;
+    margin: 24px;
+}
+
+ 
