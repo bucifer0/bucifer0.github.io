@@ -70,8 +70,6 @@ span, #donor {
     width: 210px;
     vertical-align: 45px;
     display: inline-block;
-    margin-left: 24px;
-   
 }
 
 #address  {
@@ -113,6 +111,7 @@ h1 {
 
  #left-side {
     display: inline-block;
+    width: 68%;
  }
 
  #donor {
@@ -120,4 +119,3 @@ h1 {
    vertical-align: ;
  }
 
- #
