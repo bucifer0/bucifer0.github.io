@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.single-column {
+    width: 50%;
+    min-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.light-container {
+    background-color: blue;
+    padding: 48px 0px;
+}
+
+.single-column-1 {
+    width: 50%;
+    min-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.single-column-2 {
+    width: 50%;
+    min-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.img-1 {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1 {
+    color: royalblue;
+    font-style: bold;
+    text-decoration: underline;
+}
