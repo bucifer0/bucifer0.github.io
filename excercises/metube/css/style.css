@@ -27,7 +27,7 @@ body {
 }
 
 #main {
-    background-color: blanchedalmond;
+    background-color: gainsboro;
     grid-area: main;
     display: flex;
     flex-wrap: wrap;
@@ -94,5 +94,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
+}
+
+.thumbnail-placeholder img {
     width: 100%;
 }
