@@ -89,14 +89,6 @@ body {
     margin-bottom: 4px;
 }
 
-
-.thumbnail-placeholder {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-}
-
 .thumbnail-placeholder img {
     width: 100%;
 }
