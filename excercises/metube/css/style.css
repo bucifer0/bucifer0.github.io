@@ -15,7 +15,7 @@ body {
 }
 
 #header {
-    background-color: aquamarine;
+    background-color: #150c25;
     grid-area: header;
     padding: 0px 36px;
 }
@@ -38,7 +38,7 @@ body {
 }
 
 #header #me {
-    color:black
+    color:whitesmoke
 }
 
 #header #tube {
@@ -68,7 +68,7 @@ body {
 
 .metube-item .thumbnail-placeholder {
     aspect-ratio: 16 / 9;
-    background: radial-gradient(at top left, crimson, orange);
+    background: radial-gradient(at top left, rgb(0, 0, 0), rgb(119, 0, 255));
     border-radius: 8px;
 }
 
@@ -89,6 +89,10 @@ body {
     margin-bottom: 4px;
 }
 
-.img-1 {
+
+.thumbnail-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
 }
