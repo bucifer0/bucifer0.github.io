@@ -18,8 +18,6 @@ body {
 
 h2 {
     text-align: center;
-    background-color: lightgre;
-    margin: 24px 0;
 }
 
 .card-style-2 {
@@ -31,16 +29,30 @@ h2 {
     box-shadow: -3px 3px 10px #ddd;
     background-color: #f2fae9;
     border-radius: 5%;
+    display: block;
 }
 
 img {
     width: 100%;
     height: 300px;
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 100%;
 }
 
-.p {
+.card-style-2 p {
     font-size: 18px;
+    text-align: center;
+    padding: 20px;
 }
 
+.animagram-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+#anigram-card-1 .animagram-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 24px;
+    font-size: 24px;
+}
