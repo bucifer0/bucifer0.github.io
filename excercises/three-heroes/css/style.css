@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium';
+}
+
+#hero-1 {
+    background-image: url("../images/maxresdefault.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#hero-1 h1 {
+    font-size: 15vw;
+    padding-left: 10vw;
+}
+
+#hero-1 h4 {
+    padding-left: 10vw;
+    font-size: 5vw;
+}
+
+.spacer {
+    height: 50vh;
+    background-image: url("../images/flower-4.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#hero-2 {
+    background-image: url("../images/webb-first-deep-field.en.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: flex-end;
+}
+
+
+#hero-2 h2 {
+    font-size: 10vw;
+    margin-bottom: 5vh;
+    margin-right: 5vw;
+    color: pink;
+}
+
+#hero-2 h4 {
+    font-size: 3vw;
+    margin: 0px 5vw 0px 0px;
+    color: pink;
+}
+
+#hero-2 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: #333333;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
+
+#hero-3 {
+    background-image: url("../images/istockphoto-174578300-612x612.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+
+#hero-3 .hero-content {
+    position: absolute;
+    top: 10%;
+    left: 15%;
+}
+
+#hero-3 h2 {
+    font-size: 14vw;
+    margin-bottom: 5vh;
+    margin-right: 5vw;
+    color: white;
+}
+
+#hero-3 h4 {
+    font-size: 3vw;
+    margin: 0px 5vw 0px 0px;
+    color: lightgreen
+}
+
+#hero-3 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
+
+#hero-1 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 34px;
+    margin: 5vh 5vw 10vh 0px;
+    border-radius: 100%;
+}
