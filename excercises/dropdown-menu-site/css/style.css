@@ -8,7 +8,7 @@ body {
 }
 
 #navbar {
-    background: linear-gradient(to bottom, #109cb8, #0e5b96);
+    background: linear-gradient(to bottom, #98fb98, green);
     display: flex;
     align-items: center;
 }
@@ -21,7 +21,7 @@ body {
 }
 
 #navbar a:hover {
-    background: linear-gradient(to top, #109cb8, #0e5b96);
+    background: linear-gradient(to top, #98fb98, #98fb98);
 }
 
 #navbar #logo {
