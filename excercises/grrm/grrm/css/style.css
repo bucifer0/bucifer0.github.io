@@ -416,13 +416,13 @@ body {
       font-size: 2.5em; 
     }
   
-    #navbar {
+    #nav {
       flex-wrap: wrap;
       display: flex;
     }
     
-    #navbar a {
-        flex:1; 
+    #nav a {
+        flex: 2; 
       }
 
     .ad-container {
@@ -433,6 +433,7 @@ body {
   /* Mobile Breakpoint (up to 800px) */
   @media screen and (max-width: 800px) {
     #grid-layout {
+        grid-template-columns: 1fr;
         grid-template-areas:
         "header"
             "navbar"
@@ -441,17 +442,18 @@ body {
             "card-2"
             "card-3"
             "main"
+            "aside"
             "blog"
             "more-appearances-container"
             "footer"
             "bottom";
         }
-    #navbar {
+    #nav {
         flex-wrap: wrap;
         display: flex;
       }
-    #navbar a {
-        flex: 0.5; 
+    #nav a {
+        flex: 1; 
         }
 
     #header h1 {
