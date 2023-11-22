@@ -1,0 +1,242 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  margin-right: 1rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.hero {
+    background-image: url("../images/attachment-RS45107_GettyImages-587207508-scr.jpg ");
+  text-align: center;
+  padding: 4rem 0;
+  background-color: #f2f2f2;
+}
+
+
+.menu {
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.menu h2 {
+  margin-bottom: 2rem;
+  color: red;
+  font-size: 3.2rem;
+}
+
+.menu-item {
+  margin-bottom: 2rem;
+}
+
+
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  background-color: #333;
+  color: #fff;
+  background-image: url("../images/116290794-happy-chinese-new-year-symbol-2019-template-banner-poster-greeting-cards-wallpaper-flower-pattern.jpg");
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 200px; 
+    height: 100px; 
+    margin-right: 10px;
+}
+
+.logo h1 {
+    font-size: 110px;
+}
+
+.hero a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    margin: 3vh 3vw 5vh 0px;
+}
+
+.hero h1  {
+    color: white;
+}
+
+.hero p  {
+    color: white;
+}
+
+.footer-logo img {
+    width: 200px; 
+    height: 100px; 
+    margin-right: 10px;
+}
+
+.card {
+    margin: 24px;
+    width: 350px;
+    border: 1.5px solid #ffe4da;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: -3px 3px 10px #ddd;
+    background: linear-gradient(-50deg, grey,grey, grey);
+    display: inline-block;
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card h2 {
+    font-size: 36px;
+    margin-top: 12px;
+}
+
+.card p {
+    font-size: 18px;
+}
+
+.anchor-button {
+    display: block;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    border: 3px solid red;
+    transition:
+    background-color .5s,
+    color .5s;
+}
+
+.anchor-button:hover {
+    background-color: transparent;
+    color: red;
+}
+
+#card {
+    width: 90vw;
+    max-width: 800px;
+    margin: 48px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card h2 {
+    color: white;
+}
+
+.card p {
+    color:white
+}
+
+section.side-by-side {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: #f5f5f5;
+    background-image: url("../images/116290794-happy-chinese-new-year-symbol-2019-template-banner-poster-greeting-cards-wallpaper-flower-pattern.jpg");
+}
+
+.media-content {
+    flex: 1;
+    box-sizing: border-box;
+}
+
+.media-content img {
+    max-width: 60%;
+    height: auto;
+    display: block;
+}
+
+.text-content {
+    flex: 1;
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+
+.text-content h2 {
+    color: white;
+}
+
+.text-content p {
+    color: white;
+}
+
+.text-content p {
+    font-size: 24px;
+}
+
+.text-content h2 {
+    font-size: 48px;
+}
+
+@media (max-width: 768px) {
+    section.side-by-side {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .media-content,
+    .text-content {
+        width: 100%;
+        padding: 0;
+    }
+    .logo h1 {
+        font-size: 40px;
+    }
+    #navbar {
+        flex-wrap: wrap;
+        display: flex;
+    }
+}
+
+.menu-item {
+    font-size: 2.4rem;
+
+}
+
+.logo a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 24px;
+}
+
+#logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+}
