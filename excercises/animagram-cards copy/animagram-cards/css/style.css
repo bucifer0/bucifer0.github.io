@@ -9,10 +9,11 @@
 */
 * {
     box-sizing:border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-    margin: 0px;
     font-family: sans-serif;
 }
 
@@ -32,7 +33,7 @@ h2 {
     display: block;
 }
 
-img {
+.profile-pic-container img {
     width: 100%;
     height: 300px;
     object-fit: cover;
@@ -48,11 +49,52 @@ img {
 .animagram-footer {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
 }
 
-#anigram-card-1 .animagram-header {
+#animagram-card-1 .animagram-header {
     display: flex;
     justify-content: space-between;
     margin: 24px;
     font-size: 24px;
+}
+
+
+
+.card-style-2 .profile-pic-container img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.card-style-2 .profile-pic-container {
+    padding: 36px 36px 10px;
+    text-align: center;
+}
+
+#animagram-card-2 .animagram-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 24px;
+    font-size: 24px;
+}
+
+#animagram-card-3 .animagram-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 24px;
+    font-size: 24px;
+}
+
+#animagram-card-4 .animagram-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 24px;
+    font-size: 24px;
+}
+
+.animagram-footer span {
+    font-size: 24px; 
 }
