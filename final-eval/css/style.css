@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Nova Square', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 24px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 18px;
+}
+
+p {
+    font-size: 18px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 75%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .cta-button {
+        font-size: 16px;
+    }
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    align-items: center;
+    padding: 56px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around; 
+    margin-bottom: 20px;
+    align-items: center;
+    padding: 56px;
+}
+
+.team-container {
+    text-align: center; 
+}
+
+.image-container img {
+    max-width: 90%;
+    border-radius: 8px;
+}
+
+.image-text  {
+    font-weight: bold;
+    color: black;
+    font-size:24px ;
+}
+
+.versus-container {
+    display: flex;
+    align-items: center;
+}
+
+.date p {
+    font-size: 36px;
+    color: black;
+    font-weight: bold;
+}
+
+.versus {
+    font-size: 36px;
+    color: black;
+    font-weight: bold;
+}
+
+.footer {
+    padding-top: 16px;
+}
