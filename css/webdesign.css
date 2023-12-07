@@ -129,3 +129,16 @@ body {
         margin-bottom: 10px;
     }
 }
+
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+    max-height: 500px; 
+    transition: transform 0.3s;
+    display: block;
+    margin: 0 auto;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.1);
+}
